@@ -23,12 +23,17 @@ class Base{
      */
     public $size = 0;
 
-    public function __construct($request)
+    public function __construct($request,$type = NULL)
     {
         $this->request = $request;
-        $result = $this->request->getSwooleRequest()->files;
-        $types = array_keys($result);
-        $this->type = $types[0];
+        if(empty($type)){
+            $result = $this->request->getSwooleRequest()->files;
+            $types = array_keys($result);
+            $this->type = $types[0];
+        }else{
+            $this->type = $type;
+        }
+
     }
 
     public function upload()

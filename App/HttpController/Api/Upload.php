@@ -7,6 +7,7 @@
  */
 namespace App\HttpController\Api;
 
+use App\HttpController\Lib\ClassArr;
 use App\HttpController\Lib\Upload\Video;
 use EasySwoole\Http\Message\UploadFile;
 
@@ -20,8 +21,18 @@ class Upload extends BaseController {
     {
         $request = $this->request();
         try{
-            $video = new Video($request);
-            $file = $video->upload();
+
+            //获取上传文件的键名
+            $result = $request->getSwooleRequest()->files;
+            $types = array_keys($result);
+            $type = $types[0];
+
+            //php反射机制
+            $classArr = new ClassArr();
+            $classStats = $classArr->uploadClassStat();
+            $uploadObj = $classArr->initClass($type,$classStats,[$request,$type]);
+            $file = $uploadObj->upload();
+
         }catch (\Exception $e){
             return $this->writeJson(400,'',$e->getMessage());
         }

@@ -41,3 +41,25 @@
 [2019-05-11 21:45:36 *91885.5]	WARNING	swSignalfd_onSignal (ERROR 707): Unable to find callback function for signal Hangup: 1.
 [2019-05-15 21:37:10 $107643.0]	WARNING	swManager_check_exit_status: worker#2[pid=107669] abnormal exit, status=255, signal=0
 [2019-05-15 21:37:54 $109127.0]	WARNING	swManager_check_exit_status: worker#2[pid=109153] abnormal exit, status=255, signal=0
+[2019-05-16 21:22:39 ^69147.13]	WARNING	swSignalfd_onSignal (ERROR 707): Unable to find callback function for signal Hangup: 1.
+[2019-05-16 21:22:39 ^69147.13]	WARNING	swSignalfd_onSignal (ERROR 707): Unable to find callback function for signal Hangup: 1.
+[2019-05-16 21:22:39 ^69150.14]	WARNING	swSignalfd_onSignal (ERROR 707): Unable to find callback function for signal Hangup: 1.
+[2019-05-16 21:22:39 *69157.3]	WARNING	swSignalfd_onSignal (ERROR 707): Unable to find callback function for signal Hangup: 1.
+[2019-05-16 21:22:39 ^69151.15]	WARNING	swSignalfd_onSignal (ERROR 707): Unable to find callback function for signal Hangup: 1.
+[2019-05-16 21:22:39 *69156.2]	WARNING	swSignalfd_onSignal (ERROR 707): Unable to find callback function for signal Hangup: 1.
+[2019-05-16 21:22:39 *69154.1]	WARNING	swSignalfd_onSignal (ERROR 707): Unable to find callback function for signal Hangup: 1.
+[2019-05-16 21:22:39 ^69143.10]	WARNING	swSignalfd_onSignal (ERROR 707): Unable to find callback function for signal Hangup: 1.
+[2019-05-16 21:22:39 ^69141.8]	WARNING	swSignalfd_onSignal (ERROR 707): Unable to find callback function for signal Hangup: 1.
+[2019-05-16 21:22:39 ^69142.9]	WARNING	swSignalfd_onSignal (ERROR 707): Unable to find callback function for signal Hangup: 1.
+[2019-05-16 21:22:39 *69152.0]	WARNING	swSignalfd_onSignal (ERROR 707): Unable to find callback function for signal Hangup: 1.
+[2019-05-16 21:22:39 *69162.7]	WARNING	swSignalfd_onSignal (ERROR 707): Unable to find callback function for signal Hangup: 1.
+[2019-05-16 21:22:39 ^69145.11]	WARNING	swSignalfd_onSignal (ERROR 707): Unable to find callback function for signal Hangup: 1.
+[2019-05-16 21:22:39 ^69146.12]	WARNING	swSignalfd_onSignal (ERROR 707): Unable to find callback function for signal Hangup: 1.
+[2019-05-16 21:22:39 $69133.0]	WARNING	swSignal_callback (ERROR 707): Unable to find callback function for signal Hangup: 1.
+[2019-05-16 21:22:39 #69132.4]	WARNING	swSignalfd_onSignal (ERROR 707): Unable to find callback function for signal Hangup: 1.
+[2019-05-16 21:22:39 *69161.6]	WARNING	swSignalfd_onSignal (ERROR 707): Unable to find callback function for signal Hangup: 1.
+[2019-05-16 21:22:39 *69158.4]	WARNING	swSignalfd_onSignal (ERROR 707): Unable to find callback function for signal Hangup: 1.
+[2019-05-16 21:22:39 *69160.5]	WARNING	swSignalfd_onSignal (ERROR 707): Unable to find callback function for signal Hangup: 1.
+[2019-05-16 21:22:39 $69133.0]	WARNING	swManager_check_exit_status: worker#18[pid=69165] abnormal exit, status=0, signal=1
+[2019-05-16 21:22:39 $69133.0]	WARNING	swManager_check_exit_status: worker#16[pid=69163] abnormal exit, status=0, signal=1
+[2019-05-16 21:22:39 $69133.0]	WARNING	swManager_check_exit_status: worker#17[pid=69164] abnormal exit, status=0, signal=1
