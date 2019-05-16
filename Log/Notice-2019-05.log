@@ -1,0 +1,4 @@
+[2019-05-11 22:42:07][Notice][file:/usr/share/nginx/html/easyswoole/App/HttpController/Lib/Redis/Redis.php][line:24]Undefined index: prot
+[2019-05-12 20:27:13][Notice][file:/usr/share/nginx/html/easyswoole/App/HttpController/Lib/Process/ConsumerTest.php][line:30]Undefined variable: arg
+[2019-05-12 20:28:35][Notice][file:/usr/share/nginx/html/easyswoole/App/HttpController/Lib/Process/ConsumerTest.php][line:30]Undefined variable: arg
+[2019-05-15 21:39:38][Notice][file:/usr/share/nginx/html/easyswoole/App/HttpController/Lib/Upload/Base.php][line:54]Undefined property: App\HttpController\Lib\Upload\Video::$checkMediaType
