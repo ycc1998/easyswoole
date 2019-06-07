@@ -42,7 +42,7 @@ class Upload extends BaseController {
             $data = [
                 'url' => $file
             ];
-            return $this->writeJson(200,$data,'ok');
+            return $this->writeJson(200,$data,'OK');
         }
         /*
         $request = $this->request();

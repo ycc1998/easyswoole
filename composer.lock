@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f5c1b783078ccfb95a5a141cd39a21a5",
+    "content-hash": "e2f4c0f24d1f891300c08d6296405f05",
     "packages": [
         {
             "name": "dragonmantank/cron-expression",
@@ -68,16 +68,16 @@
         },
         {
             "name": "easyswoole/component",
-            "version": "1.5.6",
+            "version": "1.7.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/easy-swoole/component.git",
-                "reference": "9f98996971e6d5397623b9de93ce291898f92eb0"
+                "reference": "7fa43c53369c087f5304edc084702e39d64471f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/easy-swoole/component/zipball/9f98996971e6d5397623b9de93ce291898f92eb0",
-                "reference": "9f98996971e6d5397623b9de93ce291898f92eb0",
+                "url": "https://api.github.com/repos/easy-swoole/component/zipball/7fa43c53369c087f5304edc084702e39d64471f9",
+                "reference": "7fa43c53369c087f5304edc084702e39d64471f9",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -87,6 +87,7 @@
                 ]
             },
             "require": {
+                "easyswoole/spl": "^1.1",
                 "easyswoole/utility": "^1.0",
                 "ext-swoole": "^4.3.0",
                 "php": ">=7.1.0"
@@ -120,63 +121,7 @@
                 "framework",
                 "swoole"
             ],
-            "time": "2019-05-10T17:13:38+00:00"
-        },
-        {
-            "name": "easyswoole/console",
-            "version": "1.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/easy-swoole/console.git",
-                "reference": "e7153da3b351c4d1cf74ddcf5ab53a516647dbf9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/easy-swoole/console/zipball/e7153da3b351c4d1cf74ddcf5ab53a516647dbf9",
-                "reference": "e7153da3b351c4d1cf74ddcf5ab53a516647dbf9",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
-            },
-            "require": {
-                "easyswoole/component": "^1.5",
-                "easyswoole/socket": "^1.1",
-                "easyswoole/spl": "^1.1",
-                "ext-swoole": ">=4.2.13",
-                "php": ">=7.1.0"
-            },
-            "require-dev": {
-                "easyswoole/swoole-ide-helper": "^1.2"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "EasySwoole\\Console\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "YF",
-                    "email": "291323003@qq.com"
-                }
-            ],
-            "description": "An efficient swoole framework",
-            "homepage": "https://www.easyswoole.com/",
-            "keywords": [
-                "async",
-                "easyswoole",
-                "framework",
-                "swoole"
-            ],
-            "time": "2019-03-08T13:49:44+00:00"
+            "time": "2019-05-31T16:32:21+00:00"
         },
         {
             "name": "easyswoole/easyswoole",
@@ -184,12 +129,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/easy-swoole/easyswoole.git",
-                "reference": "c9834ea1794d67c05f95288dde25c09286973713"
+                "reference": "f4d5034fc8e955582567cdca6d893395891d51c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/easy-swoole/easyswoole/zipball/c9834ea1794d67c05f95288dde25c09286973713",
-                "reference": "c9834ea1794d67c05f95288dde25c09286973713",
+                "url": "https://api.github.com/repos/easy-swoole/easyswoole/zipball/f4d5034fc8e955582567cdca6d893395891d51c3",
+                "reference": "f4d5034fc8e955582567cdca6d893395891d51c3",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -201,11 +146,9 @@
             "require": {
                 "dragonmantank/cron-expression": "^2.2",
                 "easyswoole/component": "^1.0",
-                "easyswoole/console": "^1.0",
                 "easyswoole/http": "^1.0",
-                "easyswoole/socket": "^1.0",
                 "easyswoole/spl": "^1.0",
-                "easyswoole/trace": "^1.0",
+                "easyswoole/trigger": "^1.0",
                 "easyswoole/utility": "^1.0",
                 "ext-swoole": ">=4.3.0",
                 "jeremeamia/superclosure": "^2.4",
@@ -241,20 +184,20 @@
                 "framework",
                 "swoole"
             ],
-            "time": "2019-05-05T12:18:20+00:00"
+            "time": "2019-06-06T15:43:16+00:00"
         },
         {
             "name": "easyswoole/http",
-            "version": "1.2.15",
+            "version": "1.2.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/easy-swoole/http.git",
-                "reference": "0a8e1efe543c2d15b4a2b48df1951fd5c32a9e2e"
+                "reference": "12657d5e8ebf9527ca2ba8c7588f6ac59e097620"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/easy-swoole/http/zipball/0a8e1efe543c2d15b4a2b48df1951fd5c32a9e2e",
-                "reference": "0a8e1efe543c2d15b4a2b48df1951fd5c32a9e2e",
+                "url": "https://api.github.com/repos/easy-swoole/http/zipball/12657d5e8ebf9527ca2ba8c7588f6ac59e097620",
+                "reference": "12657d5e8ebf9527ca2ba8c7588f6ac59e097620",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -299,20 +242,66 @@
                 "framework",
                 "swoole"
             ],
-            "time": "2019-03-25T13:26:32+00:00"
+            "time": "2019-05-16T07:23:06+00:00"
         },
         {
-            "name": "easyswoole/mysqli",
-            "version": "1.1.16",
+            "name": "easyswoole/log",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/easy-swoole/mysqli.git",
-                "reference": "0a4e83993544c1fca4e7ceac324ab74291c1dd27"
+                "url": "https://github.com/easy-swoole/log.git",
+                "reference": "a9f7a8c139523db90992f89a91f2714413f6d637"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/easy-swoole/mysqli/zipball/0a4e83993544c1fca4e7ceac324ab74291c1dd27",
-                "reference": "0a4e83993544c1fca4e7ceac324ab74291c1dd27",
+                "url": "https://api.github.com/repos/easy-swoole/log/zipball/a9f7a8c139523db90992f89a91f2714413f6d637",
+                "reference": "a9f7a8c139523db90992f89a91f2714413f6d637",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "EasySwoole\\Log\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "YF",
+                    "email": "291323003@qq.com"
+                }
+            ],
+            "description": "An efficient swoole framework",
+            "homepage": "https://www.easyswoole.com/",
+            "keywords": [
+                "async",
+                "easyswoole",
+                "framework",
+                "swoole"
+            ],
+            "time": "2019-05-30T05:30:17+00:00"
+        },
+        {
+            "name": "easyswoole/mysqli",
+            "version": "1.1.17",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/easy-swoole/mysqli.git",
+                "reference": "6c0013e9b41b09ce6e2c5eee3be5cde89c53fd52"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/easy-swoole/mysqli/zipball/6c0013e9b41b09ce6e2c5eee3be5cde89c53fd52",
+                "reference": "6c0013e9b41b09ce6e2c5eee3be5cde89c53fd52",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -351,75 +340,20 @@
                 "framework",
                 "swoole"
             ],
-            "time": "2019-04-27T07:46:19+00:00"
-        },
-        {
-            "name": "easyswoole/socket",
-            "version": "1.1.9",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/easy-swoole/socket.git",
-                "reference": "356bfde050dc0f0567f32821e8eaf5a4058b486a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/easy-swoole/socket/zipball/356bfde050dc0f0567f32821e8eaf5a4058b486a",
-                "reference": "356bfde050dc0f0567f32821e8eaf5a4058b486a",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
-            },
-            "require": {
-                "easyswoole/spl": "^1.0",
-                "easyswoole/trace": "^1.1",
-                "php": ">=7.1.0"
-            },
-            "require-dev": {
-                "easyswoole/swoole-ide-helper": "dev-master",
-                "phpunit/phpunit": "^5.6"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "EasySwoole\\Socket\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "YF",
-                    "email": "291323003@qq.com"
-                }
-            ],
-            "description": "An efficient swoole framework",
-            "homepage": "https://www.easyswoole.com/",
-            "keywords": [
-                "async",
-                "easyswoole",
-                "framework",
-                "swoole"
-            ],
-            "time": "2019-04-18T06:58:21+00:00"
+            "time": "2019-05-17T13:06:54+00:00"
         },
         {
             "name": "easyswoole/spl",
-            "version": "1.1.10",
+            "version": "1.1.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/easy-swoole/spl.git",
-                "reference": "1f3afb03bec205cd016a927a215751b68f6081bf"
+                "reference": "50e62c7debc2e22705dc5a4e21794509363aaecc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/easy-swoole/spl/zipball/1f3afb03bec205cd016a927a215751b68f6081bf",
-                "reference": "1f3afb03bec205cd016a927a215751b68f6081bf",
+                "url": "https://api.github.com/repos/easy-swoole/spl/zipball/50e62c7debc2e22705dc5a4e21794509363aaecc",
+                "reference": "50e62c7debc2e22705dc5a4e21794509363aaecc",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -430,6 +364,9 @@
             },
             "require": {
                 "php": ">=7.1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.1"
             },
             "type": "library",
             "autoload": {
@@ -455,20 +392,20 @@
                 "framework",
                 "swoole"
             ],
-            "time": "2019-04-12T12:04:33+00:00"
+            "time": "2019-05-21T05:25:46+00:00"
         },
         {
-            "name": "easyswoole/trace",
-            "version": "1.1.17",
+            "name": "easyswoole/trigger",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/easy-swoole/trace.git",
-                "reference": "57f589b5b2bbd2c94e30a9aee715a1a13e3ea50c"
+                "url": "https://github.com/easy-swoole/trigger.git",
+                "reference": "f449f974d6645342134f455ce4a6885c8ad3a92e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/easy-swoole/trace/zipball/57f589b5b2bbd2c94e30a9aee715a1a13e3ea50c",
-                "reference": "57f589b5b2bbd2c94e30a9aee715a1a13e3ea50c",
+                "url": "https://api.github.com/repos/easy-swoole/trigger/zipball/f449f974d6645342134f455ce4a6885c8ad3a92e",
+                "reference": "f449f974d6645342134f455ce4a6885c8ad3a92e",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -478,12 +415,12 @@
                 ]
             },
             "require": {
-                "php": ">=7.1.0"
+                "easyswoole/log": "^1.0"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "EasySwoole\\Trace\\": "src/"
+                    "EasySwoole\\Trigger\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -504,20 +441,20 @@
                 "framework",
                 "swoole"
             ],
-            "time": "2019-02-25T02:32:05+00:00"
+            "time": "2019-05-29T15:33:12+00:00"
         },
         {
             "name": "easyswoole/utility",
-            "version": "1.0.9",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/easy-swoole/utility.git",
-                "reference": "11bf7d3604fc2bf1753354e5f6cf30417fcdf39b"
+                "reference": "8281bcee8f901b33a5bcbec663b029d216f0c86a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/easy-swoole/utility/zipball/11bf7d3604fc2bf1753354e5f6cf30417fcdf39b",
-                "reference": "11bf7d3604fc2bf1753354e5f6cf30417fcdf39b",
+                "url": "https://api.github.com/repos/easy-swoole/utility/zipball/8281bcee8f901b33a5bcbec663b029d216f0c86a",
+                "reference": "8281bcee8f901b33a5bcbec663b029d216f0c86a",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -546,7 +483,7 @@
                 }
             ],
             "description": "easyswoole extension tool library",
-            "time": "2019-03-07T07:14:29+00:00"
+            "time": "2019-06-01T15:14:12+00:00"
         },
         {
             "name": "easyswoole/validate",
@@ -600,6 +537,185 @@
                 "swoole"
             ],
             "time": "2019-04-19T15:29:59+00:00"
+        },
+        {
+            "name": "elasticsearch/elasticsearch",
+            "version": "v6.7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/elastic/elasticsearch-php.git",
+                "reference": "7be453dd36d1b141b779f2cb956715f8e04ac2f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/elastic/elasticsearch-php/zipball/7be453dd36d1b141b779f2cb956715f8e04ac2f4",
+                "reference": "7be453dd36d1b141b779f2cb956715f8e04ac2f4",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "ext-json": ">=1.3.7",
+                "guzzlehttp/ringphp": "~1.0",
+                "php": "^7.0",
+                "psr/log": "~1.0"
+            },
+            "require-dev": {
+                "cpliakas/git-wrapper": "^1.7 || ^2.1",
+                "doctrine/inflector": "^1.1",
+                "mockery/mockery": "^1.2",
+                "phpstan/phpstan-shim": "^0.9 || ^0.11",
+                "phpunit/phpunit": "^5.7 || ^6.5",
+                "squizlabs/php_codesniffer": "^3.4",
+                "symfony/finder": "^2.8",
+                "symfony/yaml": "^2.8"
+            },
+            "suggest": {
+                "ext-curl": "*",
+                "monolog/monolog": "Allows for client-level logging and tracing"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Elasticsearch\\": "src/Elasticsearch/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Zachary Tong"
+                },
+                {
+                    "name": "Enrico Zimuel"
+                }
+            ],
+            "description": "PHP Client for Elasticsearch",
+            "keywords": [
+                "client",
+                "elasticsearch",
+                "search"
+            ],
+            "time": "2019-05-20T14:15:55+00:00"
+        },
+        {
+            "name": "guzzlehttp/ringphp",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/RingPHP.git",
+                "reference": "5e2a174052995663dd68e6b5ad838afd47dd615b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/RingPHP/zipball/5e2a174052995663dd68e6b5ad838afd47dd615b",
+                "reference": "5e2a174052995663dd68e6b5ad838afd47dd615b",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "guzzlehttp/streams": "~3.0",
+                "php": ">=5.4.0",
+                "react/promise": "~2.0"
+            },
+            "require-dev": {
+                "ext-curl": "*",
+                "phpunit/phpunit": "~4.0"
+            },
+            "suggest": {
+                "ext-curl": "Guzzle will use specific adapters if cURL is present"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Ring\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Provides a simple API and specification that abstracts away the details of HTTP into a single PHP function.",
+            "time": "2018-07-31T13:22:33+00:00"
+        },
+        {
+            "name": "guzzlehttp/streams",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/streams.git",
+                "reference": "47aaa48e27dae43d39fc1cea0ccf0d84ac1a2ba5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/streams/zipball/47aaa48e27dae43d39fc1cea0ccf0d84ac1a2ba5",
+                "reference": "47aaa48e27dae43d39fc1cea0ccf0d84ac1a2ba5",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Stream\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Provides a simple abstraction over streams of data",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "Guzzle",
+                "stream"
+            ],
+            "time": "2014-10-12T19:18:40+00:00"
         },
         {
             "name": "jeremeamia/SuperClosure",
@@ -719,16 +835,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.2.1",
+            "version": "v4.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "5221f49a608808c1e4d436df32884cbc1b821ac0"
+                "reference": "1bd73cc04c3843ad8d6b0bfc0956026a151fc420"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/5221f49a608808c1e4d436df32884cbc1b821ac0",
-                "reference": "5221f49a608808c1e4d436df32884cbc1b821ac0",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/1bd73cc04c3843ad8d6b0bfc0956026a151fc420",
+                "reference": "1bd73cc04c3843ad8d6b0bfc0956026a151fc420",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -772,7 +888,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2019-02-16T20:54:15+00:00"
+            "time": "2019-05-25T20:07:01+00:00"
         },
         {
             "name": "psr/http-message",
@@ -829,6 +945,111 @@
                 "response"
             ],
             "time": "2016-08-06T14:39:51+00:00"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
+                "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2018-11-20T15:27:04+00:00"
+        },
+        {
+            "name": "react/promise",
+            "version": "v2.7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reactphp/promise.git",
+                "reference": "31ffa96f8d2ed0341a57848cbb84d88b89dd664d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reactphp/promise/zipball/31ffa96f8d2ed0341a57848cbb84d88b89dd664d",
+                "reference": "31ffa96f8d2ed0341a57848cbb84d88b89dd664d",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "React\\Promise\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jan Sorgalla",
+                    "email": "jsorgalla@gmail.com"
+                }
+            ],
+            "description": "A lightweight implementation of CommonJS Promises/A for PHP",
+            "keywords": [
+                "promise",
+                "promises"
+            ],
+            "time": "2019-01-07T21:25:54+00:00"
         },
         {
             "name": "symfony/polyfill-php56",

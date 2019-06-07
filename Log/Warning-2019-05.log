@@ -10,3 +10,6 @@
 [2019-05-11 17:48:52][Warning][file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Index.php][line:20]mysqli::__construct(): (HY000/2005): Unknown MySQL server host '{"host":"127.0.0.1","user":"root","password":"root","database":"zerg","port":"3306","timeout":"5","c' (2)
 [2019-05-15 21:45:32][Warning][file:/usr/share/nginx/html/easyswoole/App/HttpController/Lib/Upload/Base.php][line:55]is_array() expects exactly 1 parameter, 2 given
 [2019-05-15 21:46:30][Warning][file:/usr/share/nginx/html/easyswoole/App/HttpController/Lib/Upload/Base.php][line:55]is_array() expects exactly 1 parameter, 2 given
+[2019-05-18 12:31:13][Warning][file:/usr/share/nginx/html/easyswoole/vendor/easyswoole/http/src/Response.php][line:43]Swoole\Http\Response::status() expects parameter 1 to be integer, string given
+[2019-05-18 12:32:09][Warning][file:/usr/share/nginx/html/easyswoole/vendor/easyswoole/http/src/Response.php][line:43]Swoole\Http\Response::status() expects parameter 1 to be integer, string given
+[2019-05-18 13:43:24][Warning][file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Upload.php][line:27]array_keys() expects parameter 1 to be array, null given

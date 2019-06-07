@@ -39,6 +39,23 @@ class BaseController extends Controller{
         //$this->writeJson(500,'','内部服务器错误');
     }
 
+    /**
+     * 首页分页返回信息
+     * @param $count
+     * @param $data
+     * @return array
+     */
+    public function getPagingDatas($count,$data)
+    {
+
+        return [
+            'total_page' => ceil($count/$this->size),//向上取整
+            'page_size' => $this->size,
+            'count' => intval($count),
+            'lists' => $data,
+        ];
+    }
+
 
 
 

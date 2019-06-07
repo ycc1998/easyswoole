@@ -27,7 +27,7 @@ class ConsumerTest extends AbstractProcess{
                     try{
                         $task = $redis->lPop('name');
                         if($task){
-                            var_dump($task);
+                            //var_dump($task);
                         }else{
                             break;
                         }

@@ -36,15 +36,15 @@ return [
     'PHAR' => [
         'EXCLUDE' => ['.idea', 'Log', 'Temp', 'easyswoole', 'easyswoole.install']
     ],
-    'MYSQL' => [
-        'host'          => '127.0.0.1',
-        'port'          => '3306',
-        'user'          => 'root',
-        'timeout'       => '5',
-        'charset'       => 'utf8mb4',
-        'password'      => 'root',
-        'database'      => 'zerg',
-        'POOL_MAX_NUM'  => '20',
-        'POOL_TIME_OUT' => '0.1',
-    ],
+//    'MYSQL' => [
+//        'host'          => '127.0.0.1',
+//        'port'          => '3306',
+//        'user'          => 'root',
+//        'timeout'       => '5',
+//        'charset'       => 'utf8mb4',
+//        'password'      => 'root',
+//        'database'      => 'easyswoole',
+//        'POOL_MAX_NUM'  => '20',
+//        'POOL_TIME_OUT' => '0.1',
+//    ],
 ];

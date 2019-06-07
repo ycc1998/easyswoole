@@ -24,3 +24,69 @@ Stack trace:
 #4 /usr/share/nginx/html/easyswoole/easyswoole(20): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
 #5 {main}
   thrown
+[2019-05-17 21:00:59][FatalError][file:/usr/share/nginx/html/easyswoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:75]Uncaught TypeError: Argument 1 passed to EasySwoole\Mysqli\Mysqli::__construct() must be an instance of EasySwoole\Mysqli\Config, array given, called in /usr/share/nginx/html/easyswoole/EasySwooleEvent.php on line 35 and defined in /usr/share/nginx/html/easyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:75
+Stack trace:
+#0 /usr/share/nginx/html/easyswoole/EasySwooleEvent.php(35): EasySwoole\Mysqli\Mysqli->__construct(Array)
+#1 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Core.php(123): EasySwoole\EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\EasySwoole\Swoole\EventRegister))
+#2 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(44): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandRunn
+[2019-05-17 21:01:27][FatalError][file:/usr/share/nginx/html/easyswoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:75]Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Mysqli\Mysqli::__construct(), 0 passed in /usr/share/nginx/html/easyswoole/EasySwooleEvent.php on line 35 and exactly 1 expected in /usr/share/nginx/html/easyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:75
+Stack trace:
+#0 /usr/share/nginx/html/easyswoole/EasySwooleEvent.php(35): EasySwoole\Mysqli\Mysqli->__construct()
+#1 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Core.php(123): EasySwoole\EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\EasySwoole\Swoole\EventRegister))
+#2 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(44): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(52): EasySwoole\EasySwoole\C
+[2019-05-17 21:02:38][FatalError][file:/usr/share/nginx/html/easyswoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:75]Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Mysqli\Mysqli::__construct(), 0 passed in /usr/share/nginx/html/easyswoole/EasySwooleEvent.php on line 35 and exactly 1 expected in /usr/share/nginx/html/easyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:75
+Stack trace:
+#0 /usr/share/nginx/html/easyswoole/EasySwooleEvent.php(35): EasySwoole\Mysqli\Mysqli->__construct()
+#1 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Core.php(123): EasySwoole\EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\EasySwoole\Swoole\EventRegister))
+#2 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(44): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(52): EasySwoole\EasySwoole\C
+[2019-05-17 21:03:42][FatalError][file:/usr/share/nginx/html/easyswoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:75]Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Mysqli\Mysqli::__construct(), 0 passed in /usr/share/nginx/html/easyswoole/EasySwooleEvent.php on line 35 and exactly 1 expected in /usr/share/nginx/html/easyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:75
+Stack trace:
+#0 /usr/share/nginx/html/easyswoole/EasySwooleEvent.php(35): EasySwoole\Mysqli\Mysqli->__construct()
+#1 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Core.php(123): EasySwoole\EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\EasySwoole\Swoole\EventRegister))
+#2 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(44): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(52): EasySwoole\EasySwoole\C
+[2019-05-17 21:06:20][FatalError][file:/usr/share/nginx/html/easyswoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:75]Uncaught TypeError: Argument 1 passed to EasySwoole\Mysqli\Mysqli::__construct() must be an instance of EasySwoole\Mysqli\Config, array given, called in /usr/share/nginx/html/easyswoole/EasySwooleEvent.php on line 35 and defined in /usr/share/nginx/html/easyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:75
+Stack trace:
+#0 /usr/share/nginx/html/easyswoole/EasySwooleEvent.php(35): EasySwoole\Mysqli\Mysqli->__construct(Array)
+#1 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Core.php(123): EasySwoole\EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\EasySwoole\Swoole\EventRegister))
+#2 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(44): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandRunn
+[2019-05-17 21:11:03][FatalError][file:/usr/share/nginx/html/easyswoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:75]Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Mysqli\Mysqli::__construct(), 0 passed in /usr/share/nginx/html/easyswoole/EasySwooleEvent.php on line 35 and exactly 1 expected in /usr/share/nginx/html/easyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:75
+Stack trace:
+#0 /usr/share/nginx/html/easyswoole/EasySwooleEvent.php(35): EasySwoole\Mysqli\Mysqli->__construct()
+#1 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Core.php(123): EasySwoole\EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\EasySwoole\Swoole\EventRegister))
+#2 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(44): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(52): EasySwoole\EasySwoole\C
+[2019-05-18 21:38:02][FatalError][file:/usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/ServerManager.php][line:55]Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9501]. Error: Address already in use[98]. in /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/ServerManager.php:55
+Stack trace:
+#0 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/ServerManager.php(55): Swoole\Server->__construct('0.0.0.0', 9501, 2, 1)
+#1 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Core.php(119): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9501, 2, '0.0.0.0', Array, 2, 1)
+#2 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(44): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(52): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#5 /usr/share/
+[2019-05-18 21:39:23][FatalError][file:/usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/ServerManager.php][line:55]Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9501]. Error: Address already in use[98]. in /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/ServerManager.php:55
+Stack trace:
+#0 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/ServerManager.php(55): Swoole\Server->__construct('0.0.0.0', 9501, 2, 1)
+#1 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Core.php(119): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9501, 2, '0.0.0.0', Array, 2, 1)
+#2 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(44): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(52): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#5 /usr/share/
+[2019-05-18 21:41:27][FatalError][file:/usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/ServerManager.php][line:55]Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9501]. Error: Address already in use[98]. in /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/ServerManager.php:55
+Stack trace:
+#0 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/ServerManager.php(55): Swoole\Server->__construct('0.0.0.0', 9501, 2, 1)
+#1 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Core.php(119): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9501, 2, '0.0.0.0', Array, 2, 1)
+#2 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(44): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(52): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#5 /usr/share/

@@ -1,0 +1,1269 @@
+[2019-06-07 13:00:45][DEBUG][ERROR] : [id is required for Get at file:/usr/share/nginx/html/easyswoole/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/Get.php line:53]
+[2019-06-07 14:10:22][DEBUG][ERROR] : [Uncaught Error: Call to undefined function Yaconf() in /usr/share/nginx/html/easyswoole/App/HttpController/Lib/Es/Elasticsearch.php:18
+Stack trace:
+#0 /usr/share/nginx/html/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): App\HttpController\Lib\Es\Elasticsearch->__construct()
+#1 /usr/share/nginx/html/easyswoole/EasySwooleEvent.php(39): App\HttpController\Lib\Es\Elasticsearch::getInstance()
+#2 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Core.php(121): EasySwoole\EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\EasySwoole\Swoole\EventRegister))
+#3 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#4 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(44): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#5 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(52): EasySwool at file:/usr/share/nginx/html/easyswoole/App/HttpController/Lib/Es/Elasticsearch.php line:18]
+[2019-06-07 14:10:50][DEBUG][ERROR] : [Uncaught Exception: es连接失败 in /usr/share/nginx/html/easyswoole/App/HttpController/Lib/Es/Elasticsearch.php:28
+Stack trace:
+#0 /usr/share/nginx/html/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): App\HttpController\Lib\Es\Elasticsearch->__construct()
+#1 /usr/share/nginx/html/easyswoole/EasySwooleEvent.php(39): App\HttpController\Lib\Es\Elasticsearch::getInstance()
+#2 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Core.php(121): EasySwoole\EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\EasySwoole\Swoole\EventRegister))
+#3 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#4 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(44): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#5 /usr/share/nginx/html/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(52): EasySwoole\EasySwoole\Comm at file:/usr/share/nginx/html/easyswoole/App/HttpController/Lib/Es/Elasticsearch.php line:28]
+[2019-06-07 14:11:15][DEBUG][ERROR] : [<!doctype html>
+<html lang="zh">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>EasySwoole</title>
+		<style>
+				html {
+						font-size: 10px;
+						font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif;
+				}
+
+				hr {
+						display: block;
+						padding: 0;
+						border: 0;
+						height: 0;
+						border-top: 1px solid #eee;
+						-webkit-box-sizing: content-box;
+						box-sizing: content-box;
+				}
+
+				.page-404 {
+						background: #fff;
+						border: none;
+						width: 200px;
+						margin: 0 auto;
+						display: block;
+						padding: 1rem;
+						font-size: 1.3rem;
+						line-height: 1.6;
+						word-break: break-all;
+						word-wrap: break-word;
+						color: #555;
+						border-radius: 0;
+						font-family: Monaco, Menlo, Consolas, "Courier New", FontAwesome, monospace;
+				}
+		</style>
+</head>
+<body>
+
+<h2 style="text-align: center;font-size: 300%;">哇靠!页面丢了?</h2>
+<p style="text-align: center;font-size: 150%;">看来又有程序猿要被开除了</p>
+<pre class="page-404">          .----.
+       _.'__    `.
+   .--($)($$)---/#\
+ .' @          /###\
+ :         ,   #####
+  `-..__.-' _.-\###/
+        `;_:    `"'
+      .'"""""`.
+     /,  ya ,\\
+    //  404!  \\
+    `-._______.-'
+    ___`. | .'___
+   (______|______)
+</pre>
+</body>
+</html> at file:/usr/share/nginx/html/easyswoole/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Connections/Connection.php line:612]
+[2019-06-07 14:12:22][DEBUG][ERROR] : [<!doctype html>
+<html lang="zh">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>EasySwoole</title>
+		<style>
+				html {
+						font-size: 10px;
+						font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif;
+				}
+
+				hr {
+						display: block;
+						padding: 0;
+						border: 0;
+						height: 0;
+						border-top: 1px solid #eee;
+						-webkit-box-sizing: content-box;
+						box-sizing: content-box;
+				}
+
+				.page-404 {
+						background: #fff;
+						border: none;
+						width: 200px;
+						margin: 0 auto;
+						display: block;
+						padding: 1rem;
+						font-size: 1.3rem;
+						line-height: 1.6;
+						word-break: break-all;
+						word-wrap: break-word;
+						color: #555;
+						border-radius: 0;
+						font-family: Monaco, Menlo, Consolas, "Courier New", FontAwesome, monospace;
+				}
+		</style>
+</head>
+<body>
+
+<h2 style="text-align: center;font-size: 300%;">哇靠!页面丢了?</h2>
+<p style="text-align: center;font-size: 150%;">看来又有程序猿要被开除了</p>
+<pre class="page-404">          .----.
+       _.'__    `.
+   .--($)($$)---/#\
+ .' @          /###\
+ :         ,   #####
+  `-..__.-' _.-\###/
+        `;_:    `"'
+      .'"""""`.
+     /,  ya ,\\
+    //  404!  \\
+    `-._______.-'
+    ___`. | .'___
+   (______|______)
+</pre>
+</body>
+</html> at file:/usr/share/nginx/html/easyswoole/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Connections/Connection.php line:612]
+[2019-06-07 14:14:12][DEBUG][ERROR] : [<!doctype html>
+<html lang="zh">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>EasySwoole</title>
+		<style>
+				html {
+						font-size: 10px;
+						font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif;
+				}
+
+				hr {
+						display: block;
+						padding: 0;
+						border: 0;
+						height: 0;
+						border-top: 1px solid #eee;
+						-webkit-box-sizing: content-box;
+						box-sizing: content-box;
+				}
+
+				.page-404 {
+						background: #fff;
+						border: none;
+						width: 200px;
+						margin: 0 auto;
+						display: block;
+						padding: 1rem;
+						font-size: 1.3rem;
+						line-height: 1.6;
+						word-break: break-all;
+						word-wrap: break-word;
+						color: #555;
+						border-radius: 0;
+						font-family: Monaco, Menlo, Consolas, "Courier New", FontAwesome, monospace;
+				}
+		</style>
+</head>
+<body>
+
+<h2 style="text-align: center;font-size: 300%;">哇靠!页面丢了?</h2>
+<p style="text-align: center;font-size: 150%;">看来又有程序猿要被开除了</p>
+<pre class="page-404">          .----.
+       _.'__    `.
+   .--($)($$)---/#\
+ .' @          /###\
+ :         ,   #####
+  `-..__.-' _.-\###/
+        `;_:    `"'
+      .'"""""`.
+     /,  ya ,\\
+    //  404!  \\
+    `-._______.-'
+    ___`. | .'___
+   (______|______)
+</pre>
+</body>
+</html> at file:/usr/share/nginx/html/easyswoole/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Connections/Connection.php line:612]
+[2019-06-07 14:16:56][DEBUG][ERROR] : [<!doctype html>
+<html lang="zh">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>EasySwoole</title>
+		<style>
+				html {
+						font-size: 10px;
+						font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif;
+				}
+
+				hr {
+						display: block;
+						padding: 0;
+						border: 0;
+						height: 0;
+						border-top: 1px solid #eee;
+						-webkit-box-sizing: content-box;
+						box-sizing: content-box;
+				}
+
+				.page-404 {
+						background: #fff;
+						border: none;
+						width: 200px;
+						margin: 0 auto;
+						display: block;
+						padding: 1rem;
+						font-size: 1.3rem;
+						line-height: 1.6;
+						word-break: break-all;
+						word-wrap: break-word;
+						color: #555;
+						border-radius: 0;
+						font-family: Monaco, Menlo, Consolas, "Courier New", FontAwesome, monospace;
+				}
+		</style>
+</head>
+<body>
+
+<h2 style="text-align: center;font-size: 300%;">哇靠!页面丢了?</h2>
+<p style="text-align: center;font-size: 150%;">看来又有程序猿要被开除了</p>
+<pre class="page-404">          .----.
+       _.'__    `.
+   .--($)($$)---/#\
+ .' @          /###\
+ :         ,   #####
+  `-..__.-' _.-\###/
+        `;_:    `"'
+      .'"""""`.
+     /,  ya ,\\
+    //  404!  \\
+    `-._______.-'
+    ___`. | .'___
+   (______|______)
+</pre>
+</body>
+</html> at file:/usr/share/nginx/html/easyswoole/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Connections/Connection.php line:612]
+[2019-06-07 14:16:57][DEBUG][ERROR] : [<!doctype html>
+<html lang="zh">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>EasySwoole</title>
+		<style>
+				html {
+						font-size: 10px;
+						font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif;
+				}
+
+				hr {
+						display: block;
+						padding: 0;
+						border: 0;
+						height: 0;
+						border-top: 1px solid #eee;
+						-webkit-box-sizing: content-box;
+						box-sizing: content-box;
+				}
+
+				.page-404 {
+						background: #fff;
+						border: none;
+						width: 200px;
+						margin: 0 auto;
+						display: block;
+						padding: 1rem;
+						font-size: 1.3rem;
+						line-height: 1.6;
+						word-break: break-all;
+						word-wrap: break-word;
+						color: #555;
+						border-radius: 0;
+						font-family: Monaco, Menlo, Consolas, "Courier New", FontAwesome, monospace;
+				}
+		</style>
+</head>
+<body>
+
+<h2 style="text-align: center;font-size: 300%;">哇靠!页面丢了?</h2>
+<p style="text-align: center;font-size: 150%;">看来又有程序猿要被开除了</p>
+<pre class="page-404">          .----.
+       _.'__    `.
+   .--($)($$)---/#\
+ .' @          /###\
+ :         ,   #####
+  `-..__.-' _.-\###/
+        `;_:    `"'
+      .'"""""`.
+     /,  ya ,\\
+    //  404!  \\
+    `-._______.-'
+    ___`. | .'___
+   (______|______)
+</pre>
+</body>
+</html> at file:/usr/share/nginx/html/easyswoole/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Connections/Connection.php line:612]
+[2019-06-07 14:16:58][DEBUG][ERROR] : [<!doctype html>
+<html lang="zh">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>EasySwoole</title>
+		<style>
+				html {
+						font-size: 10px;
+						font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif;
+				}
+
+				hr {
+						display: block;
+						padding: 0;
+						border: 0;
+						height: 0;
+						border-top: 1px solid #eee;
+						-webkit-box-sizing: content-box;
+						box-sizing: content-box;
+				}
+
+				.page-404 {
+						background: #fff;
+						border: none;
+						width: 200px;
+						margin: 0 auto;
+						display: block;
+						padding: 1rem;
+						font-size: 1.3rem;
+						line-height: 1.6;
+						word-break: break-all;
+						word-wrap: break-word;
+						color: #555;
+						border-radius: 0;
+						font-family: Monaco, Menlo, Consolas, "Courier New", FontAwesome, monospace;
+				}
+		</style>
+</head>
+<body>
+
+<h2 style="text-align: center;font-size: 300%;">哇靠!页面丢了?</h2>
+<p style="text-align: center;font-size: 150%;">看来又有程序猿要被开除了</p>
+<pre class="page-404">          .----.
+       _.'__    `.
+   .--($)($$)---/#\
+ .' @          /###\
+ :         ,   #####
+  `-..__.-' _.-\###/
+        `;_:    `"'
+      .'"""""`.
+     /,  ya ,\\
+    //  404!  \\
+    `-._______.-'
+    ___`. | .'___
+   (______|______)
+</pre>
+</body>
+</html> at file:/usr/share/nginx/html/easyswoole/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Connections/Connection.php line:612]
+[2019-06-07 14:16:58][DEBUG][ERROR] : [<!doctype html>
+<html lang="zh">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>EasySwoole</title>
+		<style>
+				html {
+						font-size: 10px;
+						font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif;
+				}
+
+				hr {
+						display: block;
+						padding: 0;
+						border: 0;
+						height: 0;
+						border-top: 1px solid #eee;
+						-webkit-box-sizing: content-box;
+						box-sizing: content-box;
+				}
+
+				.page-404 {
+						background: #fff;
+						border: none;
+						width: 200px;
+						margin: 0 auto;
+						display: block;
+						padding: 1rem;
+						font-size: 1.3rem;
+						line-height: 1.6;
+						word-break: break-all;
+						word-wrap: break-word;
+						color: #555;
+						border-radius: 0;
+						font-family: Monaco, Menlo, Consolas, "Courier New", FontAwesome, monospace;
+				}
+		</style>
+</head>
+<body>
+
+<h2 style="text-align: center;font-size: 300%;">哇靠!页面丢了?</h2>
+<p style="text-align: center;font-size: 150%;">看来又有程序猿要被开除了</p>
+<pre class="page-404">          .----.
+       _.'__    `.
+   .--($)($$)---/#\
+ .' @          /###\
+ :         ,   #####
+  `-..__.-' _.-\###/
+        `;_:    `"'
+      .'"""""`.
+     /,  ya ,\\
+    //  404!  \\
+    `-._______.-'
+    ___`. | .'___
+   (______|______)
+</pre>
+</body>
+</html> at file:/usr/share/nginx/html/easyswoole/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Connections/Connection.php line:612]
+[2019-06-07 14:16:58][DEBUG][ERROR] : [<!doctype html>
+<html lang="zh">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>EasySwoole</title>
+		<style>
+				html {
+						font-size: 10px;
+						font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif;
+				}
+
+				hr {
+						display: block;
+						padding: 0;
+						border: 0;
+						height: 0;
+						border-top: 1px solid #eee;
+						-webkit-box-sizing: content-box;
+						box-sizing: content-box;
+				}
+
+				.page-404 {
+						background: #fff;
+						border: none;
+						width: 200px;
+						margin: 0 auto;
+						display: block;
+						padding: 1rem;
+						font-size: 1.3rem;
+						line-height: 1.6;
+						word-break: break-all;
+						word-wrap: break-word;
+						color: #555;
+						border-radius: 0;
+						font-family: Monaco, Menlo, Consolas, "Courier New", FontAwesome, monospace;
+				}
+		</style>
+</head>
+<body>
+
+<h2 style="text-align: center;font-size: 300%;">哇靠!页面丢了?</h2>
+<p style="text-align: center;font-size: 150%;">看来又有程序猿要被开除了</p>
+<pre class="page-404">          .----.
+       _.'__    `.
+   .--($)($$)---/#\
+ .' @          /###\
+ :         ,   #####
+  `-..__.-' _.-\###/
+        `;_:    `"'
+      .'"""""`.
+     /,  ya ,\\
+    //  404!  \\
+    `-._______.-'
+    ___`. | .'___
+   (______|______)
+</pre>
+</body>
+</html> at file:/usr/share/nginx/html/easyswoole/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Connections/Connection.php line:612]
+[2019-06-07 14:16:58][DEBUG][ERROR] : [<!doctype html>
+<html lang="zh">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>EasySwoole</title>
+		<style>
+				html {
+						font-size: 10px;
+						font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif;
+				}
+
+				hr {
+						display: block;
+						padding: 0;
+						border: 0;
+						height: 0;
+						border-top: 1px solid #eee;
+						-webkit-box-sizing: content-box;
+						box-sizing: content-box;
+				}
+
+				.page-404 {
+						background: #fff;
+						border: none;
+						width: 200px;
+						margin: 0 auto;
+						display: block;
+						padding: 1rem;
+						font-size: 1.3rem;
+						line-height: 1.6;
+						word-break: break-all;
+						word-wrap: break-word;
+						color: #555;
+						border-radius: 0;
+						font-family: Monaco, Menlo, Consolas, "Courier New", FontAwesome, monospace;
+				}
+		</style>
+</head>
+<body>
+
+<h2 style="text-align: center;font-size: 300%;">哇靠!页面丢了?</h2>
+<p style="text-align: center;font-size: 150%;">看来又有程序猿要被开除了</p>
+<pre class="page-404">          .----.
+       _.'__    `.
+   .--($)($$)---/#\
+ .' @          /###\
+ :         ,   #####
+  `-..__.-' _.-\###/
+        `;_:    `"'
+      .'"""""`.
+     /,  ya ,\\
+    //  404!  \\
+    `-._______.-'
+    ___`. | .'___
+   (______|______)
+</pre>
+</body>
+</html> at file:/usr/share/nginx/html/easyswoole/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Connections/Connection.php line:612]
+[2019-06-07 14:16:59][DEBUG][ERROR] : [<!doctype html>
+<html lang="zh">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>EasySwoole</title>
+		<style>
+				html {
+						font-size: 10px;
+						font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif;
+				}
+
+				hr {
+						display: block;
+						padding: 0;
+						border: 0;
+						height: 0;
+						border-top: 1px solid #eee;
+						-webkit-box-sizing: content-box;
+						box-sizing: content-box;
+				}
+
+				.page-404 {
+						background: #fff;
+						border: none;
+						width: 200px;
+						margin: 0 auto;
+						display: block;
+						padding: 1rem;
+						font-size: 1.3rem;
+						line-height: 1.6;
+						word-break: break-all;
+						word-wrap: break-word;
+						color: #555;
+						border-radius: 0;
+						font-family: Monaco, Menlo, Consolas, "Courier New", FontAwesome, monospace;
+				}
+		</style>
+</head>
+<body>
+
+<h2 style="text-align: center;font-size: 300%;">哇靠!页面丢了?</h2>
+<p style="text-align: center;font-size: 150%;">看来又有程序猿要被开除了</p>
+<pre class="page-404">          .----.
+       _.'__    `.
+   .--($)($$)---/#\
+ .' @          /###\
+ :         ,   #####
+  `-..__.-' _.-\###/
+        `;_:    `"'
+      .'"""""`.
+     /,  ya ,\\
+    //  404!  \\
+    `-._______.-'
+    ___`. | .'___
+   (______|______)
+</pre>
+</body>
+</html> at file:/usr/share/nginx/html/easyswoole/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Connections/Connection.php line:612]
+[2019-06-07 14:16:59][DEBUG][ERROR] : [<!doctype html>
+<html lang="zh">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>EasySwoole</title>
+		<style>
+				html {
+						font-size: 10px;
+						font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif;
+				}
+
+				hr {
+						display: block;
+						padding: 0;
+						border: 0;
+						height: 0;
+						border-top: 1px solid #eee;
+						-webkit-box-sizing: content-box;
+						box-sizing: content-box;
+				}
+
+				.page-404 {
+						background: #fff;
+						border: none;
+						width: 200px;
+						margin: 0 auto;
+						display: block;
+						padding: 1rem;
+						font-size: 1.3rem;
+						line-height: 1.6;
+						word-break: break-all;
+						word-wrap: break-word;
+						color: #555;
+						border-radius: 0;
+						font-family: Monaco, Menlo, Consolas, "Courier New", FontAwesome, monospace;
+				}
+		</style>
+</head>
+<body>
+
+<h2 style="text-align: center;font-size: 300%;">哇靠!页面丢了?</h2>
+<p style="text-align: center;font-size: 150%;">看来又有程序猿要被开除了</p>
+<pre class="page-404">          .----.
+       _.'__    `.
+   .--($)($$)---/#\
+ .' @          /###\
+ :         ,   #####
+  `-..__.-' _.-\###/
+        `;_:    `"'
+      .'"""""`.
+     /,  ya ,\\
+    //  404!  \\
+    `-._______.-'
+    ___`. | .'___
+   (______|______)
+</pre>
+</body>
+</html> at file:/usr/share/nginx/html/easyswoole/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Connections/Connection.php line:612]
+[2019-06-07 14:18:38][DEBUG][ERROR] : [<!doctype html>
+<html lang="zh">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>EasySwoole</title>
+		<style>
+				html {
+						font-size: 10px;
+						font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif;
+				}
+
+				hr {
+						display: block;
+						padding: 0;
+						border: 0;
+						height: 0;
+						border-top: 1px solid #eee;
+						-webkit-box-sizing: content-box;
+						box-sizing: content-box;
+				}
+
+				.page-404 {
+						background: #fff;
+						border: none;
+						width: 200px;
+						margin: 0 auto;
+						display: block;
+						padding: 1rem;
+						font-size: 1.3rem;
+						line-height: 1.6;
+						word-break: break-all;
+						word-wrap: break-word;
+						color: #555;
+						border-radius: 0;
+						font-family: Monaco, Menlo, Consolas, "Courier New", FontAwesome, monospace;
+				}
+		</style>
+</head>
+<body>
+
+<h2 style="text-align: center;font-size: 300%;">哇靠!页面丢了?</h2>
+<p style="text-align: center;font-size: 150%;">看来又有程序猿要被开除了</p>
+<pre class="page-404">          .----.
+       _.'__    `.
+   .--($)($$)---/#\
+ .' @          /###\
+ :         ,   #####
+  `-..__.-' _.-\###/
+        `;_:    `"'
+      .'"""""`.
+     /,  ya ,\\
+    //  404!  \\
+    `-._______.-'
+    ___`. | .'___
+   (______|______)
+</pre>
+</body>
+</html> at file:/usr/share/nginx/html/easyswoole/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Connections/Connection.php line:612]
+[2019-06-07 14:19:27][DEBUG][ERROR] : [<!doctype html>
+<html lang="zh">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>EasySwoole</title>
+		<style>
+				html {
+						font-size: 10px;
+						font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif;
+				}
+
+				hr {
+						display: block;
+						padding: 0;
+						border: 0;
+						height: 0;
+						border-top: 1px solid #eee;
+						-webkit-box-sizing: content-box;
+						box-sizing: content-box;
+				}
+
+				.page-404 {
+						background: #fff;
+						border: none;
+						width: 200px;
+						margin: 0 auto;
+						display: block;
+						padding: 1rem;
+						font-size: 1.3rem;
+						line-height: 1.6;
+						word-break: break-all;
+						word-wrap: break-word;
+						color: #555;
+						border-radius: 0;
+						font-family: Monaco, Menlo, Consolas, "Courier New", FontAwesome, monospace;
+				}
+		</style>
+</head>
+<body>
+
+<h2 style="text-align: center;font-size: 300%;">哇靠!页面丢了?</h2>
+<p style="text-align: center;font-size: 150%;">看来又有程序猿要被开除了</p>
+<pre class="page-404">          .----.
+       _.'__    `.
+   .--($)($$)---/#\
+ .' @          /###\
+ :         ,   #####
+  `-..__.-' _.-\###/
+        `;_:    `"'
+      .'"""""`.
+     /,  ya ,\\
+    //  404!  \\
+    `-._______.-'
+    ___`. | .'___
+   (______|______)
+</pre>
+</body>
+</html> at file:/usr/share/nginx/html/easyswoole/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Connections/Connection.php line:612]
+[2019-06-07 14:21:47][DEBUG][ERROR] : [<!doctype html>
+<html lang="zh">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>EasySwoole</title>
+		<style>
+				html {
+						font-size: 10px;
+						font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif;
+				}
+
+				hr {
+						display: block;
+						padding: 0;
+						border: 0;
+						height: 0;
+						border-top: 1px solid #eee;
+						-webkit-box-sizing: content-box;
+						box-sizing: content-box;
+				}
+
+				.page-404 {
+						background: #fff;
+						border: none;
+						width: 200px;
+						margin: 0 auto;
+						display: block;
+						padding: 1rem;
+						font-size: 1.3rem;
+						line-height: 1.6;
+						word-break: break-all;
+						word-wrap: break-word;
+						color: #555;
+						border-radius: 0;
+						font-family: Monaco, Menlo, Consolas, "Courier New", FontAwesome, monospace;
+				}
+		</style>
+</head>
+<body>
+
+<h2 style="text-align: center;font-size: 300%;">哇靠!页面丢了?</h2>
+<p style="text-align: center;font-size: 150%;">看来又有程序猿要被开除了</p>
+<pre class="page-404">          .----.
+       _.'__    `.
+   .--($)($$)---/#\
+ .' @          /###\
+ :         ,   #####
+  `-..__.-' _.-\###/
+        `;_:    `"'
+      .'"""""`.
+     /,  ya ,\\
+    //  404!  \\
+    `-._______.-'
+    ___`. | .'___
+   (______|______)
+</pre>
+</body>
+</html> at file:/usr/share/nginx/html/easyswoole/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Connections/Connection.php line:612]
+[2019-06-07 14:23:14][DEBUG][ERROR] : [<!doctype html>
+<html lang="zh">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>EasySwoole</title>
+		<style>
+				html {
+						font-size: 10px;
+						font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif;
+				}
+
+				hr {
+						display: block;
+						padding: 0;
+						border: 0;
+						height: 0;
+						border-top: 1px solid #eee;
+						-webkit-box-sizing: content-box;
+						box-sizing: content-box;
+				}
+
+				.page-404 {
+						background: #fff;
+						border: none;
+						width: 200px;
+						margin: 0 auto;
+						display: block;
+						padding: 1rem;
+						font-size: 1.3rem;
+						line-height: 1.6;
+						word-break: break-all;
+						word-wrap: break-word;
+						color: #555;
+						border-radius: 0;
+						font-family: Monaco, Menlo, Consolas, "Courier New", FontAwesome, monospace;
+				}
+		</style>
+</head>
+<body>
+
+<h2 style="text-align: center;font-size: 300%;">哇靠!页面丢了?</h2>
+<p style="text-align: center;font-size: 150%;">看来又有程序猿要被开除了</p>
+<pre class="page-404">          .----.
+       _.'__    `.
+   .--($)($$)---/#\
+ .' @          /###\
+ :         ,   #####
+  `-..__.-' _.-\###/
+        `;_:    `"'
+      .'"""""`.
+     /,  ya ,\\
+    //  404!  \\
+    `-._______.-'
+    ___`. | .'___
+   (______|______)
+</pre>
+</body>
+</html> at file:/usr/share/nginx/html/easyswoole/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Connections/Connection.php line:612]
+[2019-06-07 14:23:14][DEBUG][ERROR] : [<!doctype html>
+<html lang="zh">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>EasySwoole</title>
+		<style>
+				html {
+						font-size: 10px;
+						font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif;
+				}
+
+				hr {
+						display: block;
+						padding: 0;
+						border: 0;
+						height: 0;
+						border-top: 1px solid #eee;
+						-webkit-box-sizing: content-box;
+						box-sizing: content-box;
+				}
+
+				.page-404 {
+						background: #fff;
+						border: none;
+						width: 200px;
+						margin: 0 auto;
+						display: block;
+						padding: 1rem;
+						font-size: 1.3rem;
+						line-height: 1.6;
+						word-break: break-all;
+						word-wrap: break-word;
+						color: #555;
+						border-radius: 0;
+						font-family: Monaco, Menlo, Consolas, "Courier New", FontAwesome, monospace;
+				}
+		</style>
+</head>
+<body>
+
+<h2 style="text-align: center;font-size: 300%;">哇靠!页面丢了?</h2>
+<p style="text-align: center;font-size: 150%;">看来又有程序猿要被开除了</p>
+<pre class="page-404">          .----.
+       _.'__    `.
+   .--($)($$)---/#\
+ .' @          /###\
+ :         ,   #####
+  `-..__.-' _.-\###/
+        `;_:    `"'
+      .'"""""`.
+     /,  ya ,\\
+    //  404!  \\
+    `-._______.-'
+    ___`. | .'___
+   (______|______)
+</pre>
+</body>
+</html> at file:/usr/share/nginx/html/easyswoole/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Connections/Connection.php line:612]
+[2019-06-07 14:23:15][DEBUG][ERROR] : [<!doctype html>
+<html lang="zh">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>EasySwoole</title>
+		<style>
+				html {
+						font-size: 10px;
+						font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif;
+				}
+
+				hr {
+						display: block;
+						padding: 0;
+						border: 0;
+						height: 0;
+						border-top: 1px solid #eee;
+						-webkit-box-sizing: content-box;
+						box-sizing: content-box;
+				}
+
+				.page-404 {
+						background: #fff;
+						border: none;
+						width: 200px;
+						margin: 0 auto;
+						display: block;
+						padding: 1rem;
+						font-size: 1.3rem;
+						line-height: 1.6;
+						word-break: break-all;
+						word-wrap: break-word;
+						color: #555;
+						border-radius: 0;
+						font-family: Monaco, Menlo, Consolas, "Courier New", FontAwesome, monospace;
+				}
+		</style>
+</head>
+<body>
+
+<h2 style="text-align: center;font-size: 300%;">哇靠!页面丢了?</h2>
+<p style="text-align: center;font-size: 150%;">看来又有程序猿要被开除了</p>
+<pre class="page-404">          .----.
+       _.'__    `.
+   .--($)($$)---/#\
+ .' @          /###\
+ :         ,   #####
+  `-..__.-' _.-\###/
+        `;_:    `"'
+      .'"""""`.
+     /,  ya ,\\
+    //  404!  \\
+    `-._______.-'
+    ___`. | .'___
+   (______|______)
+</pre>
+</body>
+</html> at file:/usr/share/nginx/html/easyswoole/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Connections/Connection.php line:612]
+[2019-06-07 14:23:15][DEBUG][ERROR] : [<!doctype html>
+<html lang="zh">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>EasySwoole</title>
+		<style>
+				html {
+						font-size: 10px;
+						font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif;
+				}
+
+				hr {
+						display: block;
+						padding: 0;
+						border: 0;
+						height: 0;
+						border-top: 1px solid #eee;
+						-webkit-box-sizing: content-box;
+						box-sizing: content-box;
+				}
+
+				.page-404 {
+						background: #fff;
+						border: none;
+						width: 200px;
+						margin: 0 auto;
+						display: block;
+						padding: 1rem;
+						font-size: 1.3rem;
+						line-height: 1.6;
+						word-break: break-all;
+						word-wrap: break-word;
+						color: #555;
+						border-radius: 0;
+						font-family: Monaco, Menlo, Consolas, "Courier New", FontAwesome, monospace;
+				}
+		</style>
+</head>
+<body>
+
+<h2 style="text-align: center;font-size: 300%;">哇靠!页面丢了?</h2>
+<p style="text-align: center;font-size: 150%;">看来又有程序猿要被开除了</p>
+<pre class="page-404">          .----.
+       _.'__    `.
+   .--($)($$)---/#\
+ .' @          /###\
+ :         ,   #####
+  `-..__.-' _.-\###/
+        `;_:    `"'
+      .'"""""`.
+     /,  ya ,\\
+    //  404!  \\
+    `-._______.-'
+    ___`. | .'___
+   (______|______)
+</pre>
+</body>
+</html> at file:/usr/share/nginx/html/easyswoole/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Connections/Connection.php line:612]
+[2019-06-07 14:23:15][DEBUG][ERROR] : [<!doctype html>
+<html lang="zh">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>EasySwoole</title>
+		<style>
+				html {
+						font-size: 10px;
+						font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif;
+				}
+
+				hr {
+						display: block;
+						padding: 0;
+						border: 0;
+						height: 0;
+						border-top: 1px solid #eee;
+						-webkit-box-sizing: content-box;
+						box-sizing: content-box;
+				}
+
+				.page-404 {
+						background: #fff;
+						border: none;
+						width: 200px;
+						margin: 0 auto;
+						display: block;
+						padding: 1rem;
+						font-size: 1.3rem;
+						line-height: 1.6;
+						word-break: break-all;
+						word-wrap: break-word;
+						color: #555;
+						border-radius: 0;
+						font-family: Monaco, Menlo, Consolas, "Courier New", FontAwesome, monospace;
+				}
+		</style>
+</head>
+<body>
+
+<h2 style="text-align: center;font-size: 300%;">哇靠!页面丢了?</h2>
+<p style="text-align: center;font-size: 150%;">看来又有程序猿要被开除了</p>
+<pre class="page-404">          .----.
+       _.'__    `.
+   .--($)($$)---/#\
+ .' @          /###\
+ :         ,   #####
+  `-..__.-' _.-\###/
+        `;_:    `"'
+      .'"""""`.
+     /,  ya ,\\
+    //  404!  \\
+    `-._______.-'
+    ___`. | .'___
+   (______|______)
+</pre>
+</body>
+</html> at file:/usr/share/nginx/html/easyswoole/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Connections/Connection.php line:612]
+[2019-06-07 14:23:15][DEBUG][ERROR] : [<!doctype html>
+<html lang="zh">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>EasySwoole</title>
+		<style>
+				html {
+						font-size: 10px;
+						font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif;
+				}
+
+				hr {
+						display: block;
+						padding: 0;
+						border: 0;
+						height: 0;
+						border-top: 1px solid #eee;
+						-webkit-box-sizing: content-box;
+						box-sizing: content-box;
+				}
+
+				.page-404 {
+						background: #fff;
+						border: none;
+						width: 200px;
+						margin: 0 auto;
+						display: block;
+						padding: 1rem;
+						font-size: 1.3rem;
+						line-height: 1.6;
+						word-break: break-all;
+						word-wrap: break-word;
+						color: #555;
+						border-radius: 0;
+						font-family: Monaco, Menlo, Consolas, "Courier New", FontAwesome, monospace;
+				}
+		</style>
+</head>
+<body>
+
+<h2 style="text-align: center;font-size: 300%;">哇靠!页面丢了?</h2>
+<p style="text-align: center;font-size: 150%;">看来又有程序猿要被开除了</p>
+<pre class="page-404">          .----.
+       _.'__    `.
+   .--($)($$)---/#\
+ .' @          /###\
+ :         ,   #####
+  `-..__.-' _.-\###/
+        `;_:    `"'
+      .'"""""`.
+     /,  ya ,\\
+    //  404!  \\
+    `-._______.-'
+    ___`. | .'___
+   (______|______)
+</pre>
+</body>
+</html> at file:/usr/share/nginx/html/easyswoole/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Connections/Connection.php line:612]
+[2019-06-07 14:28:42][DEBUG][ERROR] : [<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /video/video/1</pre>
+</body>
+</html>
+ at file:/usr/share/nginx/html/easyswoole/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Connections/Connection.php line:612]
+[2019-06-07 14:49:54][DEBUG][ERROR] : [Class 'App\HttpController\Lib\Es\Di' not found at file:/usr/share/nginx/html/easyswoole/App/HttpController/Lib/Es/EsBase.php line:14]
+[2019-06-07 15:00:36][DEBUG][ERROR] : [{"error":{"root_cause":[{"type":"parsing_exception","reason":"Unknown key for a VALUE_NUMBER in [form].","line":1,"col":42}],"type":"parsing_exception","reason":"Unknown key for a VALUE_NUMBER in [form].","line":1,"col":42},"status":400} at file:/usr/share/nginx/html/easyswoole/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Connections/Connection.php line:620]
+[2019-06-07 15:08:11][DEBUG][NOTICE] : [Undefined index: name at file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Index.php line:25]
+[2019-06-07 15:08:11][DEBUG][NOTICE] : [Undefined index: key at file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Index.php line:25]
+[2019-06-07 15:08:11][DEBUG][ERROR] : [{"error":{"root_cause":[{"type":"parsing_exception","reason":"No text specified for text query","line":1,"col":27}],"type":"parsing_exception","reason":"No text specified for text query","line":1,"col":27},"status":400} at file:/usr/share/nginx/html/easyswoole/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Connections/Connection.php line:620]
+[2019-06-07 15:12:35][DEBUG][NOTICE] : [Undefined index: page at file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Index.php line:24]
+[2019-06-07 15:12:45][DEBUG][NOTICE] : [Undefined index: page at file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Index.php line:24]
+[2019-06-07 15:13:06][DEBUG][NOTICE] : [Undefined index: page at file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Index.php line:24]
+[2019-06-07 15:13:10][DEBUG][NOTICE] : [Undefined index: page at file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Index.php line:24]
+[2019-06-07 15:13:23][DEBUG][NOTICE] : [Undefined index: page at file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Index.php line:24]
+[2019-06-07 15:13:24][DEBUG][NOTICE] : [Undefined index: page at file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Index.php line:24]
+[2019-06-07 15:13:38][DEBUG][NOTICE] : [Undefined index: page at file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Index.php line:24]
+[2019-06-07 15:14:57][DEBUG][NOTICE] : [Undefined index: page at file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Index.php line:24]
+[2019-06-07 15:15:05][DEBUG][NOTICE] : [Undefined index: page at file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Index.php line:24]
+[2019-06-07 15:15:09][DEBUG][NOTICE] : [Undefined index: page at file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Index.php line:24]
+[2019-06-07 15:15:38][DEBUG][NOTICE] : [Undefined index: page at file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Index.php line:24]
+[2019-06-07 15:16:01][DEBUG][NOTICE] : [Undefined index: page at file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Index.php line:24]
+[2019-06-07 15:16:15][DEBUG][NOTICE] : [Undefined index: page at file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Index.php line:24]
+[2019-06-07 15:16:20][DEBUG][NOTICE] : [Undefined index: page at file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Index.php line:24]
+[2019-06-07 15:28:20][DEBUG][ERROR] : [No alive nodes found in your cluster at file:/usr/share/nginx/html/easyswoole/vendor/elasticsearch/elasticsearch/src/Elasticsearch/ConnectionPool/StaticNoPingConnectionPool.php line:53]
+[2019-06-07 15:31:28][DEBUG][ERROR] : [Unsupported operand types at file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Index.php line:34]
+[2019-06-07 15:35:05][DEBUG][ERROR] : [Unsupported operand types at file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Index.php line:34]
+[2019-06-07 15:35:05][DEBUG][ERROR] : [Unsupported operand types at file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Index.php line:34]
+[2019-06-07 15:35:06][DEBUG][ERROR] : [Unsupported operand types at file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Index.php line:34]
+[2019-06-07 15:35:06][DEBUG][ERROR] : [Unsupported operand types at file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Index.php line:34]
+[2019-06-07 15:35:06][DEBUG][ERROR] : [Unsupported operand types at file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Index.php line:34]
+[2019-06-07 15:35:06][DEBUG][ERROR] : [Unsupported operand types at file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Index.php line:34]
+[2019-06-07 15:35:07][DEBUG][ERROR] : [Unsupported operand types at file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Index.php line:34]
+[2019-06-07 15:35:07][DEBUG][ERROR] : [Unsupported operand types at file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Index.php line:34]
+[2019-06-07 15:35:55][DEBUG][ERROR] : [Unsupported operand types at file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Index.php line:34]
+[2019-06-07 15:35:56][DEBUG][ERROR] : [Unsupported operand types at file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Index.php line:34]
+[2019-06-07 15:35:56][DEBUG][ERROR] : [Unsupported operand types at file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Index.php line:34]
+[2019-06-07 15:35:56][DEBUG][ERROR] : [Unsupported operand types at file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Index.php line:34]
+[2019-06-07 15:35:56][DEBUG][ERROR] : [Unsupported operand types at file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Index.php line:34]
+[2019-06-07 15:35:57][DEBUG][ERROR] : [Unsupported operand types at file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Index.php line:34]
+[2019-06-07 15:35:57][DEBUG][ERROR] : [Unsupported operand types at file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Index.php line:34]
+[2019-06-07 15:35:58][DEBUG][ERROR] : [Unsupported operand types at file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Index.php line:34]
+[2019-06-07 15:36:56][DEBUG][NOTICE] : [Use of undefined constant parem - assumed 'parem' at file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Index.php line:35]
+[2019-06-07 15:36:56][DEBUG][WARNING] : [Illegal string offset 'size' at file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Index.php line:35]
+[2019-06-07 15:37:04][DEBUG][NOTICE] : [Use of undefined constant parem - assumed 'parem' at file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Index.php line:35]
+[2019-06-07 15:37:04][DEBUG][WARNING] : [Illegal string offset 'size' at file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Index.php line:35]

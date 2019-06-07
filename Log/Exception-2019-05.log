@@ -17,3 +17,47 @@
 [2019-05-15 22:16:05][Exception][file:/usr/share/nginx/html/easyswoole/App/HttpController/Lib/Upload/Base.php][line:66]上传video不合法
 [2019-05-15 22:16:33][Exception][file:/usr/share/nginx/html/easyswoole/App/HttpController/Lib/Upload/Base.php][line:66]上传video不合法
 [2019-05-15 22:17:23][Exception][file:/usr/share/nginx/html/easyswoole/App/HttpController/Lib/Upload/Base.php][line:67]上传video不合法
+[2019-05-17 21:12:46][Exception][file:/usr/share/nginx/html/easyswoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:1523]Table 'easyswoole.user' doesn't exist query: SELECT  * FROM user
+[2019-05-17 21:53:14][Exception][file:/usr/share/nginx/html/easyswoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:1523]Table 'zerg.video' doesn't exist query: INSERT  INTO video (`name`, `cat_id`, `image`, `url`, `type`, `content`, `uploader`)  VALUES (?, ?, ?, ?, ?, ?, ?)
+[2019-05-18 12:37:14][Exception][file:/usr/share/nginx/html/easyswoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:1523]Unknown column 'a' in 'field list' query: INSERT  INTO video (`name`, `cat_id`, `image`, `url`, `type`, `content`, `uploader`, `a`)  VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+[2019-05-18 13:43:24][Exception][file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Upload.php][line:34]Call to a member function upload() on boolean
+[2019-05-18 21:45:44][Exception][file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Video.php][line:44]syntax error, unexpected '}', expecting ';'
+[2019-05-18 22:14:01][Exception][file:/usr/share/nginx/html/easyswoole/App/HttpController/Api/Index.php][line:44]syntax error, unexpected '}', expecting ';'
+[2019-05-18 22:14:59][Exception][file:/usr/share/nginx/html/easyswoole/App/HttpController/Model/Video.php][line:22]Cannot access private property EasySwoole\Mysqli\Mysqli::$totalCount
+[2019-05-18 22:15:13][Exception][file:/usr/share/nginx/html/easyswoole/App/HttpController/Model/Video.php][line:22]Call to undefined method EasySwoole\Mysqli\Mysqli::totalCount()
+[2019-05-18 22:32:09][Exception][file:/usr/share/nginx/html/easyswoole/App/HttpController/Model/Video.php][line:22]Call to undefined method EasySwoole\Mysqli\Mysqli::totalCount()
+[2019-05-18 22:42:32][Exception][file:/usr/share/nginx/html/easyswoole/App/HttpController/Model/Video.php][line:20]Unsupported operand types
+[2019-05-18 22:43:49][Exception][file:/usr/share/nginx/html/easyswoole/App/HttpController/Model/Video.php][line:20]Unsupported operand types
+[2019-05-18 22:43:50][Exception][file:/usr/share/nginx/html/easyswoole/App/HttpController/Model/Video.php][line:20]Unsupported operand types
+[2019-05-18 22:43:51][Exception][file:/usr/share/nginx/html/easyswoole/App/HttpController/Model/Video.php][line:20]Unsupported operand types
+[2019-05-18 22:43:51][Exception][file:/usr/share/nginx/html/easyswoole/App/HttpController/Model/Video.php][line:20]Unsupported operand types
+[2019-05-18 22:43:51][Exception][file:/usr/share/nginx/html/easyswoole/App/HttpController/Model/Video.php][line:20]Unsupported operand types
+[2019-05-18 22:47:44][Exception][file:/usr/share/nginx/html/easyswoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:689]Too few arguments to function EasySwoole\Mysqli\Mysqli::count(), 0 passed in /usr/share/nginx/html/easyswoole/App/HttpController/Model/Video.php on line 22 and at least 1 expected
+[2019-05-19 13:00:09][Exception][file:/usr/share/nginx/html/easyswoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:689]Too few arguments to function EasySwoole\Mysqli\Mysqli::count(), 0 passed in /usr/share/nginx/html/easyswoole/App/HttpController/Model/Video.php on line 22 and at least 1 expected
+[2019-05-25 17:12:00][Exception][file:/usr/share/nginx/html/easyswoole/App/HttpController/Lib/Crontab/Video.php][line:72]缓存类型不存在Lib/crontab/video.php
+[2019-05-25 17:13:00][Exception][file:/usr/share/nginx/html/easyswoole/App/HttpController/Lib/Crontab/Video.php][line:72]缓存类型不存在Lib/crontab/video.php
+[2019-05-25 17:14:00][Exception][file:/usr/share/nginx/html/easyswoole/App/HttpController/Lib/Crontab/Video.php][line:72]缓存类型不存在Lib/crontab/video.php
+[2019-05-25 17:15:00][Exception][file:/usr/share/nginx/html/easyswoole/App/HttpController/Lib/Crontab/Video.php][line:72]缓存类型不存在Lib/crontab/video.php
+[2019-05-25 17:16:00][Exception][file:/usr/share/nginx/html/easyswoole/App/HttpController/Lib/Crontab/Video.php][line:72]缓存类型不存在Lib/crontab/video.php
+[2019-05-25 17:17:00][Exception][file:/usr/share/nginx/html/easyswoole/App/HttpController/Lib/Crontab/Video.php][line:72]缓存类型不存在Lib/crontab/video.php
+[2019-05-25 17:18:00][Exception][file:/usr/share/nginx/html/easyswoole/App/HttpController/Lib/Crontab/Video.php][line:72]缓存类型不存在Lib/crontab/video.php
+[2019-05-25 17:19:00][Exception][file:/usr/share/nginx/html/easyswoole/App/HttpController/Lib/Crontab/Video.php][line:72]缓存类型不存在Lib/crontab/video.php
+[2019-05-25 17:20:00][Exception][file:/usr/share/nginx/html/easyswoole/App/HttpController/Lib/Crontab/Video.php][line:72]缓存类型不存在Lib/crontab/video.php
+[2019-05-25 17:21:00][Exception][file:/usr/share/nginx/html/easyswoole/App/HttpController/Lib/Crontab/Video.php][line:72]缓存类型不存在Lib/crontab/video.php
+[2019-05-25 17:22:00][Exception][file:/usr/share/nginx/html/easyswoole/App/HttpController/Lib/Crontab/Video.php][line:72]缓存类型不存在Lib/crontab/video.php
+[2019-05-25 17:23:00][Exception][file:/usr/share/nginx/html/easyswoole/App/HttpController/Lib/Crontab/Video.php][line:72]缓存类型不存在Lib/crontab/video.php
+[2019-05-25 17:24:00][Exception][file:/usr/share/nginx/html/easyswoole/App/HttpController/Lib/Crontab/Video.php][line:72]缓存类型不存在Lib/crontab/video.php
+[2019-05-25 17:25:00][Exception][file:/usr/share/nginx/html/easyswoole/App/HttpController/Lib/Crontab/Video.php][line:72]缓存类型不存在Lib/crontab/video.php
+[2019-05-25 17:26:00][Exception][file:/usr/share/nginx/html/easyswoole/App/HttpController/Lib/Crontab/Video.php][line:72]缓存类型不存在Lib/crontab/video.php
+[2019-05-25 17:27:00][Exception][file:/usr/share/nginx/html/easyswoole/App/HttpController/Lib/Crontab/Video.php][line:72]缓存类型不存在Lib/crontab/video.php
+[2019-05-25 17:28:00][Exception][file:/usr/share/nginx/html/easyswoole/App/HttpController/Lib/Crontab/Video.php][line:72]缓存类型不存在Lib/crontab/video.php
+[2019-05-25 17:29:00][Exception][file:/usr/share/nginx/html/easyswoole/App/HttpController/Lib/Crontab/Video.php][line:72]缓存类型不存在Lib/crontab/video.php
+[2019-05-25 17:30:00][Exception][file:/usr/share/nginx/html/easyswoole/App/HttpController/Lib/Crontab/Video.php][line:72]缓存类型不存在Lib/crontab/video.php
+[2019-05-25 17:31:00][Exception][file:/usr/share/nginx/html/easyswoole/App/HttpController/Lib/Crontab/Video.php][line:72]缓存类型不存在Lib/crontab/video.php
+[2019-05-25 17:32:00][Exception][file:/usr/share/nginx/html/easyswoole/App/HttpController/Lib/Crontab/Video.php][line:72]缓存类型不存在Lib/crontab/video.php
+[2019-05-25 18:09:45][Exception][file:/usr/share/nginx/html/easyswoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:1523]Table 'easyswoole.user' doesn't exist query: SELECT  * FROM user
+[2019-05-25 18:11:56][Exception][file:/usr/share/nginx/html/easyswoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:1523]Table 'easyswoole.user' doesn't exist query: SELECT  * FROM user
+[2019-05-25 18:12:48][Exception][file:/usr/share/nginx/html/easyswoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:1523]Table 'easyswoole.user' doesn't exist query: SELECT  * FROM user
+[2019-05-25 18:12:52][Exception][file:/usr/share/nginx/html/easyswoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:1523]Table 'easyswoole.user' doesn't exist query: SELECT  * FROM user
+[2019-05-25 18:12:58][Exception][file:/usr/share/nginx/html/easyswoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:1523]Table 'easyswoole.user' doesn't exist query: SELECT  * FROM user
+[2019-05-26 19:52:00][Exception][file:/usr/share/nginx/html/easyswoole/App/HttpController/Lib/Redis/Redis.php][line:77]protocol error, got '
